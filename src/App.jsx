@@ -1,4 +1,5 @@
-import Card from "./Card.jsx"
+import Card from "./Card.jsx";
+import Roulette from "./Roulette.jsx";
 
 function App() {
     return (
@@ -7,8 +8,9 @@ function App() {
           <Card/>
           <Card/>
           <Card/>
+          <Roulette/>
         </>
     );
 }
 
-export default App
+export default App;
